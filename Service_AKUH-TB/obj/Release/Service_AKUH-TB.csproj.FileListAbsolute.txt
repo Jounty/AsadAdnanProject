@@ -1,0 +1,4 @@
+C:\Users\Jounty\Desktop\AKUH-TB Project\TB _Data Entry Software - AKUH\Service_AKUH-TB\bin\Release\Service_AKUH-TB.dll
+C:\Users\Jounty\Desktop\AKUH-TB Project\TB _Data Entry Software - AKUH\Service_AKUH-TB\bin\Release\Service_AKUH-TB.pdb
+C:\Users\Jounty\Desktop\AKUH-TB Project\TB _Data Entry Software - AKUH\Service_AKUH-TB\obj\Release\Service_AKUH-TB.dll
+C:\Users\Jounty\Desktop\AKUH-TB Project\TB _Data Entry Software - AKUH\Service_AKUH-TB\obj\Release\Service_AKUH-TB.pdb

@@ -1,0 +1,10 @@
+C:\Users\Jounty\Desktop\AKUH-TB Project\TB _Data Entry Software - AKUH\Service_AKUH-TB\bin\Debug\Service_AKUH-TB.dll
+C:\Users\Jounty\Desktop\AKUH-TB Project\TB _Data Entry Software - AKUH\Service_AKUH-TB\bin\Debug\Service_AKUH-TB.pdb
+C:\Users\Jounty\Desktop\AKUH-TB Project\TB _Data Entry Software - AKUH\Service_AKUH-TB\obj\Debug\Service_AKUH-TB.dll
+C:\Users\Jounty\Desktop\AKUH-TB Project\TB _Data Entry Software - AKUH\Service_AKUH-TB\obj\Debug\Service_AKUH-TB.pdb
+C:\Users\Jounty\Desktop\AKUH-TB Project\TB _Data Entry Software - AKUH\Service_AKUH-TB\obj\Debug\Service_AKUH-TB.csprojResolveAssemblyReference.cache
+D:\Projects\Working Projects\AKUH-TB Project\TB _Data Entry Software - AKUH\Service_AKUH-TB\bin\Debug\Service_AKUH-TB.dll
+D:\Projects\Working Projects\AKUH-TB Project\TB _Data Entry Software - AKUH\Service_AKUH-TB\bin\Debug\Service_AKUH-TB.pdb
+D:\Projects\Working Projects\AKUH-TB Project\TB _Data Entry Software - AKUH\Service_AKUH-TB\obj\Debug\Service_AKUH-TB.dll
+D:\Projects\Working Projects\AKUH-TB Project\TB _Data Entry Software - AKUH\Service_AKUH-TB\obj\Debug\Service_AKUH-TB.pdb
+D:\Projects\Working Projects\AKUH-TB Project\TB _Data Entry Software - AKUH\Service_AKUH-TB\obj\Debug\Service_AKUH-TB.csprojResolveAssemblyReference.cache

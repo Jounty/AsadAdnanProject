@@ -1,0 +1,10 @@
+C:\Users\Jounty\Desktop\AKUH-TB Project\TB _Data Entry Software - AKUH\Repository_AKUH-TB\bin\Debug\Repository_AKUH-TB.dll
+C:\Users\Jounty\Desktop\AKUH-TB Project\TB _Data Entry Software - AKUH\Repository_AKUH-TB\bin\Debug\Repository_AKUH-TB.pdb
+C:\Users\Jounty\Desktop\AKUH-TB Project\TB _Data Entry Software - AKUH\Repository_AKUH-TB\obj\Debug\Repository_AKUH-TB.dll
+C:\Users\Jounty\Desktop\AKUH-TB Project\TB _Data Entry Software - AKUH\Repository_AKUH-TB\obj\Debug\Repository_AKUH-TB.pdb
+C:\Users\Jounty\Desktop\AKUH-TB Project\TB _Data Entry Software - AKUH\Repository_AKUH-TB\obj\Debug\Repository_AKUH-TB.csprojResolveAssemblyReference.cache
+D:\Projects\Working Projects\AKUH-TB Project\TB _Data Entry Software - AKUH\Repository_AKUH-TB\bin\Debug\Repository_AKUH-TB.dll
+D:\Projects\Working Projects\AKUH-TB Project\TB _Data Entry Software - AKUH\Repository_AKUH-TB\bin\Debug\Repository_AKUH-TB.pdb
+D:\Projects\Working Projects\AKUH-TB Project\TB _Data Entry Software - AKUH\Repository_AKUH-TB\obj\Debug\Repository_AKUH-TB.dll
+D:\Projects\Working Projects\AKUH-TB Project\TB _Data Entry Software - AKUH\Repository_AKUH-TB\obj\Debug\Repository_AKUH-TB.pdb
+D:\Projects\Working Projects\AKUH-TB Project\TB _Data Entry Software - AKUH\Repository_AKUH-TB\obj\Debug\Repository_AKUH-TB.csprojResolveAssemblyReference.cache

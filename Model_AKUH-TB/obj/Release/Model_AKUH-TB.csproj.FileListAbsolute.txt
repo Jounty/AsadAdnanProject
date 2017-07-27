@@ -1,0 +1,5 @@
+C:\Users\Jounty\Desktop\AKUH-TB Project\TB _Data Entry Software - AKUH\Model_AKUH-TB\bin\Release\Model_AKUH-TB.dll
+C:\Users\Jounty\Desktop\AKUH-TB Project\TB _Data Entry Software - AKUH\Model_AKUH-TB\bin\Release\Model_AKUH-TB.pdb
+C:\Users\Jounty\Desktop\AKUH-TB Project\TB _Data Entry Software - AKUH\Model_AKUH-TB\obj\Release\Model_AKUH-TB.dll
+C:\Users\Jounty\Desktop\AKUH-TB Project\TB _Data Entry Software - AKUH\Model_AKUH-TB\obj\Release\Model_AKUH-TB.pdb
+C:\Users\Jounty\Desktop\AKUH-TB Project\TB _Data Entry Software - AKUH\Model_AKUH-TB\obj\Release\Model_AKUH-TB.csprojResolveAssemblyReference.cache
