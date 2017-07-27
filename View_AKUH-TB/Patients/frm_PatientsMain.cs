@@ -21,7 +21,7 @@ namespace View_AKUH_TB.LoginForms
             InitializeComponent();
         }
 
-      //  frm_AdminMain ofrm_AdminMain = new frm_AdminMain();
+
         
         private void frm_Patients_Load(object sender, EventArgs e)
         {
@@ -40,27 +40,32 @@ namespace View_AKUH_TB.LoginForms
 
         private void bunifuFlatButton3_Click(object sender, EventArgs e)
         {
-            //frm_EditPatient ofrm_EditPatient = new frm_EditPatient();
-            //ofrm_EditPatient.Show();
+       
         }
 
         private void btnExitApplication_Click(object sender, EventArgs e)
         {
-            this.Close();
-
-            //if (ofrm_AdminDashboard ==  null)
-            //    ofrm_AdminDashboard = new frm_AdminDashboard();
-            //ofrm_AdminDashboard.Show();
         }
 
         private void bunifuThinButton21_Click(object sender, EventArgs e)
-        {
+        {           
             frm_NewPatient ofrm_NewPatient = new frm_NewPatient();
             ofrm_NewPatient.TopLevel = false;
             ofrm_NewPatient.AutoScroll = true;
             ofrm_NewPatient.Dock = DockStyle.Fill;
             pnl_PatientMain.Controls.Add(ofrm_NewPatient);
             ofrm_NewPatient.Show();
+        }
+
+       frm_AdminMain o = new frm_AdminMain();
+        private void btnExitApplication_Click_1(object sender, EventArgs e)
+        {
+           this.Hide();
+            o.pnlfrm_AdminMain.Controls.Clear();
+           // o.f();
+
+            
+
         }
     }
 }

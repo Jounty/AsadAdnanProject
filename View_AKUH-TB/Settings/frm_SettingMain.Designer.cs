@@ -28,9 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_SettingMain));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_SettingMain));
             this.pnl_SettingsMain = new System.Windows.Forms.Panel();
+            this.pnl_ManageUsersSettings = new System.Windows.Forms.Panel();
+            this.dataGridViewX1 = new DevComponents.DotNetBar.Controls.DataGridViewX();
+            this.UserName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Password = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.UserType = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Delete = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.bunifuCustomLabel3 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.pnl_ManageFeildsSettings = new System.Windows.Forms.Panel();
             this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuFlatButton10 = new Bunifu.Framework.UI.BunifuFlatButton();
@@ -49,20 +57,12 @@
             this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.btnExitApplication = new Bunifu.Framework.UI.BunifuFlatButton();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel3 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.pnl_ManageUsersSettings = new System.Windows.Forms.Panel();
-            this.dataGridViewX1 = new DevComponents.DotNetBar.Controls.DataGridViewX();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.UserName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Password = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.UserType = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Delete = new System.Windows.Forms.DataGridViewButtonColumn();
             this.pnl_SettingsMain.SuspendLayout();
-            this.pnl_ManageFeildsSettings.SuspendLayout();
-            this.pnl_HeaderAdminDashboard.SuspendLayout();
             this.pnl_ManageUsersSettings.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewX1)).BeginInit();
             this.panel2.SuspendLayout();
+            this.pnl_ManageFeildsSettings.SuspendLayout();
+            this.pnl_HeaderAdminDashboard.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnl_SettingsMain
@@ -76,6 +76,96 @@
             this.pnl_SettingsMain.Name = "pnl_SettingsMain";
             this.pnl_SettingsMain.Size = new System.Drawing.Size(1056, 1002);
             this.pnl_SettingsMain.TabIndex = 2;
+            // 
+            // pnl_ManageUsersSettings
+            // 
+            this.pnl_ManageUsersSettings.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(93)))), ((int)(((byte)(179)))));
+            this.pnl_ManageUsersSettings.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnl_ManageUsersSettings.Controls.Add(this.dataGridViewX1);
+            this.pnl_ManageUsersSettings.Controls.Add(this.panel2);
+            this.pnl_ManageUsersSettings.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pnl_ManageUsersSettings.ForeColor = System.Drawing.Color.Transparent;
+            this.pnl_ManageUsersSettings.Location = new System.Drawing.Point(346, 82);
+            this.pnl_ManageUsersSettings.Name = "pnl_ManageUsersSettings";
+            this.pnl_ManageUsersSettings.Size = new System.Drawing.Size(560, 920);
+            this.pnl_ManageUsersSettings.TabIndex = 16;
+            this.pnl_ManageUsersSettings.TabStop = true;
+            // 
+            // dataGridViewX1
+            // 
+            this.dataGridViewX1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridViewX1.BackgroundColor = System.Drawing.Color.WhiteSmoke;
+            this.dataGridViewX1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridViewX1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewX1.ColumnHeadersVisible = false;
+            this.dataGridViewX1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.UserName,
+            this.Password,
+            this.UserType,
+            this.Delete});
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Transparent;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Transparent;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewX1.DefaultCellStyle = dataGridViewCellStyle1;
+            this.dataGridViewX1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGridViewX1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
+            this.dataGridViewX1.Location = new System.Drawing.Point(0, 100);
+            this.dataGridViewX1.Name = "dataGridViewX1";
+            this.dataGridViewX1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.dataGridViewX1.RowHeadersVisible = false;
+            this.dataGridViewX1.RowTemplate.Height = 60;
+            this.dataGridViewX1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridViewX1.Size = new System.Drawing.Size(558, 818);
+            this.dataGridViewX1.TabIndex = 18;
+            this.dataGridViewX1.TabStop = false;
+            // 
+            // UserName
+            // 
+            this.UserName.HeaderText = "User Name";
+            this.UserName.Name = "UserName";
+            // 
+            // Password
+            // 
+            this.Password.HeaderText = "Password";
+            this.Password.Name = "Password";
+            // 
+            // UserType
+            // 
+            this.UserType.HeaderText = "User Type";
+            this.UserType.Name = "UserType";
+            // 
+            // Delete
+            // 
+            this.Delete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Delete.HeaderText = "Delete";
+            this.Delete.Name = "Delete";
+            this.Delete.ReadOnly = true;
+            this.Delete.Text = "Delete";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(93)))), ((int)(((byte)(179)))));
+            this.panel2.Controls.Add(this.bunifuCustomLabel3);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(558, 100);
+            this.panel2.TabIndex = 16;
+            // 
+            // bunifuCustomLabel3
+            // 
+            this.bunifuCustomLabel3.AutoSize = true;
+            this.bunifuCustomLabel3.Font = new System.Drawing.Font("Segoe UI Semibold", 19F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel3.ForeColor = System.Drawing.Color.LightGray;
+            this.bunifuCustomLabel3.Location = new System.Drawing.Point(31, 24);
+            this.bunifuCustomLabel3.Name = "bunifuCustomLabel3";
+            this.bunifuCustomLabel3.Size = new System.Drawing.Size(228, 45);
+            this.bunifuCustomLabel3.TabIndex = 15;
+            this.bunifuCustomLabel3.Text = "Manage Users";
             // 
             // pnl_ManageFeildsSettings
             // 
@@ -613,6 +703,7 @@
             this.btnExitApplication.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnExitApplication.Textcolor = System.Drawing.Color.White;
             this.btnExitApplication.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExitApplication.Click += new System.EventHandler(this.btnExitApplication_Click);
             // 
             // bunifuCustomLabel1
             // 
@@ -624,96 +715,6 @@
             this.bunifuCustomLabel1.Size = new System.Drawing.Size(138, 45);
             this.bunifuCustomLabel1.TabIndex = 0;
             this.bunifuCustomLabel1.Text = "Settings";
-            // 
-            // bunifuCustomLabel3
-            // 
-            this.bunifuCustomLabel3.AutoSize = true;
-            this.bunifuCustomLabel3.Font = new System.Drawing.Font("Segoe UI Semibold", 19F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel3.ForeColor = System.Drawing.Color.LightGray;
-            this.bunifuCustomLabel3.Location = new System.Drawing.Point(31, 24);
-            this.bunifuCustomLabel3.Name = "bunifuCustomLabel3";
-            this.bunifuCustomLabel3.Size = new System.Drawing.Size(228, 45);
-            this.bunifuCustomLabel3.TabIndex = 15;
-            this.bunifuCustomLabel3.Text = "Manage Users";
-            // 
-            // pnl_ManageUsersSettings
-            // 
-            this.pnl_ManageUsersSettings.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(93)))), ((int)(((byte)(179)))));
-            this.pnl_ManageUsersSettings.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnl_ManageUsersSettings.Controls.Add(this.dataGridViewX1);
-            this.pnl_ManageUsersSettings.Controls.Add(this.panel2);
-            this.pnl_ManageUsersSettings.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnl_ManageUsersSettings.ForeColor = System.Drawing.Color.Transparent;
-            this.pnl_ManageUsersSettings.Location = new System.Drawing.Point(346, 82);
-            this.pnl_ManageUsersSettings.Name = "pnl_ManageUsersSettings";
-            this.pnl_ManageUsersSettings.Size = new System.Drawing.Size(560, 920);
-            this.pnl_ManageUsersSettings.TabIndex = 16;
-            this.pnl_ManageUsersSettings.TabStop = true;
-            // 
-            // dataGridViewX1
-            // 
-            this.dataGridViewX1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridViewX1.BackgroundColor = System.Drawing.Color.WhiteSmoke;
-            this.dataGridViewX1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.dataGridViewX1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewX1.ColumnHeadersVisible = false;
-            this.dataGridViewX1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.UserName,
-            this.Password,
-            this.UserType,
-            this.Delete});
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Transparent;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Transparent;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewX1.DefaultCellStyle = dataGridViewCellStyle1;
-            this.dataGridViewX1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridViewX1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
-            this.dataGridViewX1.Location = new System.Drawing.Point(0, 100);
-            this.dataGridViewX1.Name = "dataGridViewX1";
-            this.dataGridViewX1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.dataGridViewX1.RowHeadersVisible = false;
-            this.dataGridViewX1.RowTemplate.Height = 60;
-            this.dataGridViewX1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewX1.Size = new System.Drawing.Size(558, 818);
-            this.dataGridViewX1.TabIndex = 18;
-            this.dataGridViewX1.TabStop = false;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(93)))), ((int)(((byte)(179)))));
-            this.panel2.Controls.Add(this.bunifuCustomLabel3);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(558, 100);
-            this.panel2.TabIndex = 16;
-            // 
-            // UserName
-            // 
-            this.UserName.HeaderText = "User Name";
-            this.UserName.Name = "UserName";
-            // 
-            // Password
-            // 
-            this.Password.HeaderText = "Password";
-            this.Password.Name = "Password";
-            // 
-            // UserType
-            // 
-            this.UserType.HeaderText = "User Type";
-            this.UserType.Name = "UserType";
-            // 
-            // Delete
-            // 
-            this.Delete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Delete.HeaderText = "Delete";
-            this.Delete.Name = "Delete";
-            this.Delete.ReadOnly = true;
-            this.Delete.Text = "Delete";
             // 
             // frm_SettingMain
             // 
@@ -729,14 +730,14 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frm_SettingMain_Load);
             this.pnl_SettingsMain.ResumeLayout(false);
-            this.pnl_ManageFeildsSettings.ResumeLayout(false);
-            this.pnl_ManageFeildsSettings.PerformLayout();
-            this.pnl_HeaderAdminDashboard.ResumeLayout(false);
-            this.pnl_HeaderAdminDashboard.PerformLayout();
             this.pnl_ManageUsersSettings.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewX1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.pnl_ManageFeildsSettings.ResumeLayout(false);
+            this.pnl_ManageFeildsSettings.PerformLayout();
+            this.pnl_HeaderAdminDashboard.ResumeLayout(false);
+            this.pnl_HeaderAdminDashboard.PerformLayout();
             this.ResumeLayout(false);
 
         }

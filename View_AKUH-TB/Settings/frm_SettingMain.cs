@@ -56,5 +56,10 @@ namespace View_AKUH_TB.Settings
                 pnl_ManageUsersSettings.Width = 0;
             }
         }
+
+        private void btnExitApplication_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }

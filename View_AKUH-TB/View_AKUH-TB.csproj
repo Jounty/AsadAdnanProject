@@ -93,6 +93,12 @@
     <Compile Include="ComboBoxForms\frm_ComboBox_AFBS.Designer.cs">
       <DependentUpon>frm_ComboBox_AFBS.cs</DependentUpon>
     </Compile>
+    <Compile Include="LoginForms\frm_CreateUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForms\frm_CreateUser.Designer.cs">
+      <DependentUpon>frm_CreateUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginForms\frm_Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -133,6 +139,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ComboBoxForms\frm_ComboBox_AFBS.resx">
       <DependentUpon>frm_ComboBox_AFBS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForms\frm_CreateUser.resx">
+      <DependentUpon>frm_CreateUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForms\frm_Login.resx">
       <DependentUpon>frm_Login.cs</DependentUpon>
