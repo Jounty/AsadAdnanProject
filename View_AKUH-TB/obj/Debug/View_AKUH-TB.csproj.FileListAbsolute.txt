@@ -24,4 +24,3 @@ D:\Projects\Working Projects\AKUH-TB Project\TB _Data Entry Software - AKUH\View
 D:\Projects\Working Projects\AKUH-TB Project\TB _Data Entry Software - AKUH\View_AKUH-TB\obj\Debug\View_AKUH-TB.pdb
 D:\Projects\Working Projects\AKUH-TB Project\TB _Data Entry Software - AKUH\View_AKUH-TB\bin\Debug\View_AKUH-TB.pdb
 D:\Projects\Working Projects\AKUH-TB Project\TB _Data Entry Software - AKUH\View_AKUH-TB\obj\Debug\View_AKUH-TB.csprojResolveAssemblyReference.cache
-D:\Projects\Working Projects\AKUH-TB Project\TB _Data Entry Software - AKUH\View_AKUH-TB\obj\Debug\View_AKUH_TB.LoginForms.frm_CreateUser.resources

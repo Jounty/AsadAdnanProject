@@ -12,15 +12,11 @@ using View_AKUH_TB.LoginForms;
 using View_AKUH_TB.OthersForms;
 using View_AKUH_TB.Patients;
 using View_AKUH_TB.Settings;
-using static System.Windows.Forms.AxHost;
 
 namespace View_AKUH_TB.Deshboard
 {
     public partial class frm_AdminMain : Form
-    {
-        frm_AdminDashboard ofrm_AdminDashboard;
-        frm_PatientsMain ofrm_PatientsMain;
-        frm_SettingMain ofrm_SettingMain;
+    { 
 
         public frm_AdminMain()
         {
@@ -44,17 +40,6 @@ namespace View_AKUH_TB.Deshboard
             MinimumSize = MaximumSize = this.Size;
             this.SetDesktopBounds(0, 0, Width, Height);
             this.CenterToParent();
-
-            ofrm_PatientsMain = new frm_PatientsMain();
-            ofrm_SettingMain = new frm_SettingMain();
-
-            ofrm_AdminDashboard = new frm_AdminDashboard();
-            ofrm_AdminDashboard.MdiParent = this;
-            ofrm_AdminDashboard.Dock = DockStyle.Fill;
-            pnlfrm_AdminMain.Controls.Add(ofrm_AdminDashboard);
-            ofrm_AdminDashboard.Show();
-
-
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -109,7 +94,13 @@ namespace View_AKUH_TB.Deshboard
            
             if(pnlsidebar.Width == 258)
             {
+                //int a = this.pnlsidebar.Width;
+                //MessageBox.Show("aa" + a);
                 pnlsidebar.Width = 85;
+                //int b = this.pnlsidebar.Width;
+                //MessageBox.Show("aa" + b);
+                //this.lblUSerType.Hide();
+                //this.lblUserName.Hide();
                 System.Drawing.Drawing2D.GraphicsPath path = new System.Drawing.Drawing2D.GraphicsPath();
                 path.AddEllipse(0, 0, pictureBox.Width, pictureBox.Height);
                 pictureBox.Region = new Region(path);
@@ -180,41 +171,43 @@ namespace View_AKUH_TB.Deshboard
             this.bunifuCustomLabel4.Show();
             this.bunifuCustomLabel6.Show();
         }
-        
+
         private void lblDashboard_Click(object sender, EventArgs e)
         {
-            ofrm_AdminDashboard = new frm_AdminDashboard();
+            pnlfrm_AdminMain.Controls.Clear();
+            pnlfrm_AdminMain.Update();
+
+            frm_AdminDashboard ofrm_AdminDashboard = new frm_AdminDashboard();
             ofrm_AdminDashboard.MdiParent = this;
             ofrm_AdminDashboard.Dock = DockStyle.Fill;
             pnlfrm_AdminMain.Controls.Add(ofrm_AdminDashboard);
-            ofrm_PatientsMain.Hide();
-            ofrm_SettingMain.Hide();      
             ofrm_AdminDashboard.Show();
-   
         }
 
         private void btnPatient_Click(object sender, EventArgs e)
         {
-            ofrm_PatientsMain = new frm_PatientsMain();
+            pnlfrm_AdminMain.Controls.Clear();
+            pnlfrm_AdminMain.Update();
+
+            frm_PatientsMain ofrm_PatientsMain = new frm_PatientsMain();
             ofrm_PatientsMain.MdiParent = this;
             ofrm_PatientsMain.Dock = DockStyle.Fill;
             pnlfrm_AdminMain.Controls.Add(ofrm_PatientsMain);
-            ofrm_SettingMain.Hide();
             ofrm_PatientsMain.Show();
- 
         }
 
         private void bubtnSettings_Click(object sender, EventArgs e)
-        { 
-            ofrm_SettingMain = new frm_SettingMain();
+        {
+            pnlfrm_AdminMain.Controls.Clear();
+            pnlfrm_AdminMain.Update();
+
+            frm_SettingMain ofrm_SettingMain = new frm_SettingMain();
             ofrm_SettingMain.MdiParent = this;
             ofrm_SettingMain.Dock = DockStyle.Fill;
             pnlfrm_AdminMain.Controls.Add(ofrm_SettingMain);
-            ofrm_PatientsMain.Hide(); 
             ofrm_SettingMain.Show();
 
         }
-       
     }
     }
 

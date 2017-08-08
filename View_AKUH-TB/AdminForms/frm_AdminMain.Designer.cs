@@ -225,7 +225,7 @@
             // btnDashboard
             // 
             this.btnDashboard.Activecolor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(76)))), ((int)(((byte)(157)))));
-            this.btnDashboard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(76)))), ((int)(((byte)(157)))));
+            this.btnDashboard.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(93)))), ((int)(((byte)(179)))));
             this.btnDashboard.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnDashboard.BorderRadius = 0;
             this.btnDashboard.ButtonText = "Dashboard";
@@ -250,7 +250,7 @@
             this.btnDashboard.Normalcolor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(93)))), ((int)(((byte)(179)))));
             this.btnDashboard.OnHovercolor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(76)))), ((int)(((byte)(157)))));
             this.btnDashboard.OnHoverTextColor = System.Drawing.Color.White;
-            this.btnDashboard.selected = true;
+            this.btnDashboard.selected = false;
             this.btnDashboard.Size = new System.Drawing.Size(344, 73);
             this.btnDashboard.TabIndex = 9;
             this.btnDashboard.Text = "Dashboard";
@@ -525,7 +525,7 @@
         private Bunifu.Framework.UI.BunifuFlatButton btnDashboard;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel4;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel6;
+        private System.Windows.Forms.Panel pnlfrm_AdminMain;
         private System.Windows.Forms.Splitter splitter1;
-        public System.Windows.Forms.Panel pnlfrm_AdminMain;
     }
 }
